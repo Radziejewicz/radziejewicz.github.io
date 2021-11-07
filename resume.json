@@ -3,8 +3,7 @@
   "basics": {
     "name": "Michał Radziejewicz",
     "label": "Lider zespołu programistów w Nocowanie.pl",
-    "image": "",
-    "email": "radziejewiczmichal@gmail.com",
+    "image": "",    
     "phone": "",
     "url": "",
     "summary": "",
@@ -170,11 +169,6 @@
       "keywords": []
     },
     {
-      "name": "Nocowanie.pl",
-      "level": "",
-      "keywords": []
-    },
-    {
       "name": "Bash",
       "level": "",
       "keywords": []
@@ -190,7 +184,7 @@
       "keywords": []
     },
     {
-      "name": "Gitlab ",
+      "name": "Gitlab",
       "level": "",
       "keywords": []
     },
