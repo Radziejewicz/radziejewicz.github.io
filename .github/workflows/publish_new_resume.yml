@@ -21,7 +21,6 @@ jobs:
 
       - name: Build resume.html
         run: |
-          echo "$(tty)"
           script --return --quiet -c "./node_modules/.bin/resumed export --format html public/index.html" /dev/null
 
       - name: Deploy resume.html
