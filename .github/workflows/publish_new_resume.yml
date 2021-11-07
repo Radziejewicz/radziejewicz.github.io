@@ -1,0 +1,43 @@
+name: "Publish new resume"
+on:
+  push:
+    branches:
+      - master
+
+jobs:
+  publish_resume:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v1
+      - uses: actions/setup-node@v1
+        with:
+          node-version: "17"
+
+      - name: Install the dependencies
+        run: |
+          apt-get update && apt-get install -y git
+          npm install resumed-cli
+          mkdir public
+
+      - name: Build resume.html
+        run: |
+          script --return --quiet -c "./node_modules/.bin/resumed export --format html public/index.html" /dev/null
+
+      - name: Deploy resume.html
+        uses: peaceiris/actions-gh-pages@v3
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./public
+
+      - name: Build resume.pdf
+        run: |
+          script --return --quiet -c "./node_modules/.bin/resumed export --format pdf MichalRadziejewicz_Resume.pdf" /dev/null
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action"
+          git add MichalRadziejewicz_Resume.pdf
+          git commit -m "Publishing new MichalRadziejewicz_Resume.pdf"
+
+      - name: Deploy resume - pdf
+        uses: ad-m/github-push-action@master
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
