@@ -14,8 +14,13 @@
     "profiles": [
       {
         "network": "LinkedIn",
-        "username": "michał-radziejewicz-b26563a6",
+        "username": "Michał Radziejewicz",
         "url": "https://www.linkedin.com/in/michał-radziejewicz-b26563a6/"
+      },
+      {
+        "network": "GitHub",
+        "username": "Radziejewicz",
+        "url": "https://github.com/Radziejewicz"
       }
     ]
   },
