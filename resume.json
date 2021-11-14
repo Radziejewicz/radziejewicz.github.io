@@ -5,7 +5,6 @@
     "label": "Lider zespołu programistów w Nocowanie.pl",
     "image": "",    
     "phone": "",
-    "url": "",
     "summary": "",
     "location": {
       "countryCode": "PL",
@@ -46,9 +45,8 @@
     {
       "institution": "Politechnika Lubelska",
       "area": "Informatyka",
-      "studyType": "",
-      "startDate": "2015-12-31",
-      "endDate": "2016-12-31",
+      "studyType": "Magister inżynier (Mgr inż.)",
+      "startDate": "2015-12-31",     
       "score": "",
       "courses": []
     },
@@ -60,15 +58,7 @@
       "endDate": "2015-12-31",
       "score": "",
       "courses": []
-    },
-    {
-      "institution": "Politechnika Lubelska",
-      "area": "Informatyka",
-      "studyType": "Magister inżynier (Mgr inż.)",
-      "startDate": "2015-12-31",     
-      "score": "",
-      "courses": []
-    }
+    }  
   ],
   "awards": [],
   "publications": [],
@@ -84,16 +74,6 @@
       "keywords": []
     },
     {
-      "name": "Web Applications ",
-      "level": "",
-      "keywords": []
-    },
-    {
-      "name": "Poprawa wydajności",
-      "level": "",
-      "keywords": []
-    },
-    {
       "name": "PL/SQL",
       "level": "",
       "keywords": []
@@ -103,6 +83,21 @@
       "level": "",
       "keywords": []
     },
+    {
+      "name": "MySQL",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Web Applications",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Poprawa wydajności",
+      "level": "",
+      "keywords": []
+    },    
     {
       "name": "JavaScript",
       "level": "",
@@ -127,12 +122,7 @@
       "name": "Python",
       "level": "",
       "keywords": []
-    },
-    {
-      "name": "MySQL",
-      "level": "",
-      "keywords": []
-    },
+    },    
     {
       "name": "Smarty",
       "level": "",
@@ -142,19 +132,14 @@
       "name": "Mercurial",
       "level": "",
       "keywords": []
-    },
-    {
-      "name": "pgAdmin",
-      "level": "",
-      "keywords": []
-    },
+    },    
     {
       "name": "Bitbucket",
       "level": "",
       "keywords": []
     },
     {
-      "name": "Memcached ",
+      "name": "Memcached",
       "level": "",
       "keywords": []
     },
@@ -192,19 +177,14 @@
       "name": "Gitlab",
       "level": "",
       "keywords": []
-    },
-    {
-      "name": "Programing",
-      "level": "",
-      "keywords": []
-    },
+    },   
     {
       "name": "REST",
       "level": "",
       "keywords": []
     },
     {
-      "name": "Przegląd kodu",
+      "name": "Code Review",
       "level": "",
       "keywords": []
     },
